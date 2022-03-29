@@ -26,6 +26,8 @@
                 url: abp.appPath + 'Tenants/EditTenantModal?tenantId=' + tenantId,
                 type: 'POST',
                 contentType: 'application/html',
+                //Override abp.ajax default dataType https://github.com/aspnetboilerplate/module-zero-core-template/pull/474
+                dataType: 'html',
                 success: function (content) {
                     $('#TenantEditModal div.modal-content').html(content);
                 },

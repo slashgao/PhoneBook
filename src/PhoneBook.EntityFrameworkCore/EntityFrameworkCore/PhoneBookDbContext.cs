@@ -3,6 +3,8 @@ using Abp.Zero.EntityFrameworkCore;
 using PhoneBook.Authorization.Roles;
 using PhoneBook.Authorization.Users;
 using PhoneBook.MultiTenancy;
+using PhoneBook.PhoneBook.Persons;
+using PhoneBook.PhoneBook.PhoneNumbers;
 
 namespace PhoneBook.EntityFrameworkCore
 {
@@ -14,5 +16,8 @@ namespace PhoneBook.EntityFrameworkCore
             : base(options)
         {
         }
+
+        public DbSet<Person> Person { get; set; }
+        public DbSet<PhoneNumber> PhoneNumber { get; set; }
     }
 }

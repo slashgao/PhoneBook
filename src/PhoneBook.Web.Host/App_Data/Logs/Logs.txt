@@ -11268,3 +11268,135 @@ INFO  2022-03-13 18:58:22,956 [10   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2022-03-13 18:58:22,982 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
 INFO  2022-03-13 18:58:22,984 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.1863ms 200 image/png
 INFO  2022-03-13 18:58:23,103 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 173.6064ms 200 application/json;charset=utf-8
+DEBUG 2022-03-29 20:40:02,893 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-03-29 20:40:03,027 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-03-29 20:40:03,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneBook.Web.Host.Startup.PhoneBookWebHostModule, PhoneBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneBook.PhoneBookWebCoreModule, PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneBook.PhoneBookApplicationModule, PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneBook.PhoneBookCoreModule, PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:03,057 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-03-29 20:40:03,151 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-03-29 20:40:03,151 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-03-29 20:40:03,151 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-03-29 20:40:03,151 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-03-29 20:40:03,658 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PhoneBook.EntityFrameworkCore.PhoneBookDbContext, PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-03-29 20:40:04,934 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-03-29 20:40:04,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-03-29 20:40:04,992 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-03-29 20:40:05,000 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2022-03-29 20:40:05,009 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-03-29 20:40:05,225 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-03-29 20:40:05,369 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2022-03-29 20:40:05,417 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-03-29 20:40:05,417 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-03-29 20:40:05,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2022-03-29 20:40:05,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneBook.Users.Dto.UserDto
+DEBUG 2022-03-29 20:40:05,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-03-29 20:40:05,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-03-29 20:40:05,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2022-03-29 20:40:05,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneBook.PhoneBook.PhoneNumber.Dto.PhoneNumberDto
+DEBUG 2022-03-29 20:40:05,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneBook.PhoneBook.Dto.PersonDto
+DEBUG 2022-03-29 20:40:05,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-03-29 20:40:05,425 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PhoneBook.MultiTenancy.Dto.TenantDto
+INFO  2022-03-29 20:40:11,123 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2022-03-29 20:40:11,123 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2022-03-29 20:40:11,216 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.316ms 200 
+INFO  2022-03-29 20:40:11,595 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneBook.Web.Host.Controllers.HomeController.Index (PhoneBook.Web.Host)'
+INFO  2022-03-29 20:40:15,933 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action PhoneBook.Web.Host.Controllers.HomeController.Index (PhoneBook.Web.Host)
+INFO  2022-03-29 20:40:17,164 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method PhoneBook.Web.Host.Controllers.HomeController.Index (PhoneBook.Web.Host) - Validation state: Valid
+INFO  2022-03-29 20:40:17,169 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method PhoneBook.Web.Host.Controllers.HomeController.Index (PhoneBook.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.1224ms.
+INFO  2022-03-29 20:40:17,543 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-03-29 20:40:17,559 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action PhoneBook.Web.Host.Controllers.HomeController.Index (PhoneBook.Web.Host) in 1616.2379ms
+INFO  2022-03-29 20:40:17,562 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneBook.Web.Host.Controllers.HomeController.Index (PhoneBook.Web.Host)'
+INFO  2022-03-29 20:40:17,580 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6464.8811ms 302 
+INFO  2022-03-29 20:40:17,587 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2022-03-29 20:40:17,619 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.0047ms 301 
+INFO  2022-03-29 20:40:17,632 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-03-29 20:40:17,950 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 318.1443ms 200 text/html
+INFO  2022-03-29 20:40:17,983 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2022-03-29 20:40:17,986 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2022-03-29 20:40:17,989 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2022-03-29 20:40:18,050 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2022-03-29 20:40:18,054 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2022-03-29 20:40:18,070 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 78.0929ms 200 text/css
+INFO  2022-03-29 20:40:18,074 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.8682ms 200 application/javascript
+INFO  2022-03-29 20:40:18,077 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2022-03-29 20:40:18,087 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Slash\Project\Test\PhoneBook\4.8.0\aspnet-core\src\PhoneBook.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2022-03-29 20:40:18,100 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.3883ms 200 application/javascript
+INFO  2022-03-29 20:40:18,105 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2022-03-29 20:40:18,108 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2022-03-29 20:40:18,111 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 128.0967ms 200 application/javascript
+INFO  2022-03-29 20:40:18,113 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Slash\Project\Test\PhoneBook\4.8.0\aspnet-core\src\PhoneBook.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2022-03-29 20:40:18,119 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.1696ms 200 application/javascript
+INFO  2022-03-29 20:40:18,388 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2022-03-29 20:40:18,411 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-03-29 20:40:18,447 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2022-03-29 20:40:18,449 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2022-03-29 20:40:18,452 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2022-03-29 20:40:18,461 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.3565ms 200 image/png
+INFO  2022-03-29 20:40:18,498 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js.map'. Physical path: 'N/A'
+INFO  2022-03-29 20:40:18,505 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.9584ms 200 text/plain
+INFO  2022-03-29 20:40:18,521 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js.map'. Physical path: 'N/A'
+INFO  2022-03-29 20:40:18,549 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 135.5394ms 200 text/plain
+INFO  2022-03-29 20:40:18,749 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 338.0441ms 200 application/json;charset=utf-8
+INFO  2022-03-29 20:41:58,379 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2022-03-29 20:41:58,396 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneBook.Sessions.SessionAppService.GetCurrentLoginInformations (PhoneBook.Application)'
+INFO  2022-03-29 20:41:58,455 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action PhoneBook.Sessions.SessionAppService.GetCurrentLoginInformations (PhoneBook.Application)
+INFO  2022-03-29 20:41:58,943 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method PhoneBook.Sessions.SessionAppService.GetCurrentLoginInformations (PhoneBook.Application) - Validation state: Valid
+INFO  2022-03-29 20:41:59,025 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method PhoneBook.Sessions.SessionAppService.GetCurrentLoginInformations (PhoneBook.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 78.7407ms.
+INFO  2022-03-29 20:41:59,046 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-03-29 20:41:59,068 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action PhoneBook.Sessions.SessionAppService.GetCurrentLoginInformations (PhoneBook.Application) in 611.1794ms
+INFO  2022-03-29 20:41:59,071 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneBook.Sessions.SessionAppService.GetCurrentLoginInformations (PhoneBook.Application)'
+INFO  2022-03-29 20:41:59,074 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 699.3065ms 200 application/json; charset=utf-8
+INFO  2022-03-29 20:42:59,672 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPersonByIdAsync?Id=1  
+INFO  2022-03-29 20:42:59,684 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneBook.PhoneBook.PersonAppService.GetPersonByIdAsync (PhoneBook.Application)'
+INFO  2022-03-29 20:42:59,714 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetPersonByIdAsync", controller = "Person"}. Executing action PhoneBook.PhoneBook.PersonAppService.GetPersonByIdAsync (PhoneBook.Application)
+WARN  2022-03-29 20:43:00,248 [22   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2022-03-29 20:43:00,257 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2022-03-29 20:43:00,264 [22   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-03-29 20:43:00,269 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action PhoneBook.PhoneBook.PersonAppService.GetPersonByIdAsync (PhoneBook.Application) in 551.4735ms
+INFO  2022-03-29 20:43:00,272 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneBook.PhoneBook.PersonAppService.GetPersonByIdAsync (PhoneBook.Application)'
+INFO  2022-03-29 20:43:00,277 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 618.0805ms 401 application/json; charset=utf-8
+INFO  2022-03-29 20:43:21,042 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2022-03-29 20:43:21,057 [24   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-03-29 20:43:21,060 [24   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-03-29 20:43:21,069 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneBook.Controllers.TokenAuthController.Authenticate (PhoneBook.Web.Core)'
+INFO  2022-03-29 20:43:21,087 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action PhoneBook.Controllers.TokenAuthController.Authenticate (PhoneBook.Web.Core)
+INFO  2022-03-29 20:43:21,091 [24   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-03-29 20:43:21,092 [24   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-03-29 20:43:21,709 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method PhoneBook.Controllers.TokenAuthController.Authenticate (PhoneBook.Web.Core) with arguments (PhoneBook.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2022-03-29 20:43:22,471 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method PhoneBook.Controllers.TokenAuthController.Authenticate (PhoneBook.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 759.6556ms.
+INFO  2022-03-29 20:43:22,485 [44   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-03-29 20:43:22,492 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action PhoneBook.Controllers.TokenAuthController.Authenticate (PhoneBook.Web.Core) in 1401.2622ms
+INFO  2022-03-29 20:43:22,494 [44   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneBook.Controllers.TokenAuthController.Authenticate (PhoneBook.Web.Core)'
+INFO  2022-03-29 20:43:22,497 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1455.6433ms 200 application/json; charset=utf-8
+INFO  2022-03-29 20:43:29,887 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Person/GetPersonByIdAsync?Id=1  
+INFO  2022-03-29 20:43:29,953 [22   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2022-03-29 20:43:30,010 [44   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PhoneBook.PhoneBook.PersonAppService.GetPersonByIdAsync (PhoneBook.Application)'
+INFO  2022-03-29 20:43:30,017 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetPersonByIdAsync", controller = "Person"}. Executing action PhoneBook.PhoneBook.PersonAppService.GetPersonByIdAsync (PhoneBook.Application)
+INFO  2022-03-29 20:43:30,683 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method PhoneBook.PhoneBook.PersonAppService.GetPersonByIdAsync (PhoneBook.Application) with arguments (Abp.Application.Services.Dto.EntityDto) - Validation state: Valid
+INFO  2022-03-29 20:43:30,901 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method PhoneBook.PhoneBook.PersonAppService.GetPersonByIdAsync (PhoneBook.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 216.376ms.
+INFO  2022-03-29 20:43:30,929 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-03-29 20:43:30,935 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action PhoneBook.PhoneBook.PersonAppService.GetPersonByIdAsync (PhoneBook.Application) in 916.3235ms
+INFO  2022-03-29 20:43:30,937 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PhoneBook.PhoneBook.PersonAppService.GetPersonByIdAsync (PhoneBook.Application)'
+INFO  2022-03-29 20:43:30,938 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1052.0944ms 200 application/json; charset=utf-8

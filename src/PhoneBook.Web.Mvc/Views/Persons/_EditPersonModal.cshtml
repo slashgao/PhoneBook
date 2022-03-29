@@ -1,0 +1,71 @@
+﻿@using PhoneBook.Web.Models.Common.Modals
+@using PhoneBook.PhoneBook.Dto
+@model PhoneBook.PhoneBook.Dto.PersonDto
+@{
+    Layout = null;
+}
+@await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditPerson")))
+<div class="modal-body">
+    <form name="PersonEditForm" role="form" novalidate class="form-validation">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <ul class="nav nav-tabs tab-nav-right" role="tablist">
+            <li role="presentation" class="active"><a href="#edit-person-details" data-toggle="tab">@L("UserDetails")</a></li>
+            <li role="presentation"><a href="#edit-person-roles" data-toggle="tab">@L("UserRoles")</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane animated fadeIn active" id="edit-person-details">
+                <div class="row clearfix" style="margin-top:10px;">
+                    <div class="col-sm-12">
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input id="name" type="text" name="Name" value="@Model.Name" required maxlength="32" minlength="2" class="validate form-control">
+                                <label for="name" class="form-label">@L("Name")</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-sm-12">
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input id="email" type="email" name="Email" value="@Model.Email" maxlength="256" class="validate form-control">
+                                <label for="email" class="form-label">@L("EmailAddress")</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-sm-12">
+                        <div class="form-group form-float">
+                            <div class="form-line">
+                                <input id="address" type="text" name="Address" value="@Model.Address" maxlength="256" class="validate form-control">
+                                <label for="address" class="form-label">@L("Address")</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @foreach (var phoneNumber in Model.PhoneNumbers)
+                {
+                    <div class="row clearfix">
+                        <div class="col-sm-12">
+                            <div class="form-group form-float">
+                                <div class="form-line">
+                                    <input id="@phoneNumber.Id" type="text" name="EditNumber" value="@phoneNumber.Number" maxlength="256" class="validate form-control">
+                                    <label for="@phoneNumber.Id" class="form-label">@L("Number")</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+
+            </div>
+            <div role="tabpanel" class="tab-pane animated fadeIn" id="edit-user-roles">
+                <div class="row">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+@await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+<script src="~/view-resources/Views/Persons/_EditPersonModal.js" asp-append-version="true"></script>

@@ -26,7 +26,9 @@
 			abp.ajax({
 				url: abp.appPath + 'Roles/EditRoleModal?roleId=' + roleId,
 				type: 'POST',
-				contentType: 'application/html',
+                contentType: 'application/html',
+                //Override abp.ajax default dataType https://github.com/aspnetboilerplate/module-zero-core-template/pull/474
+                dataType: 'html',
 				success: function (content) {
 					$('#RoleEditModal div.modal-content').html(content);
 				},
